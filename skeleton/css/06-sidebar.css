@@ -4,3 +4,28 @@
     margin-top: -120px;
     position: relative;
 }
+
+.profile-info h1{
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin-bottom: 20px;
+}
+
+.profile-nav li {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.profile-nav li:first-child {
+    border-top: 1px solid lightgray;
+
+}
