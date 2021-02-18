@@ -33,6 +33,6 @@
     border-radius: 5px;
 }
 
-.thumb:hover:before {
+.thumb:hover:before, .thumb:hover:after{
     display: block
 }

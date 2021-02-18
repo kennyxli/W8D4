@@ -9,6 +9,16 @@ if (typeof window === 'undefined'){
  * and two white pieces at [3, 3] and [4, 4]
  */
 function _makeGrid () {
+  let row = new Array(8)
+  for(let i = 0; i < row.length; i++) {
+    row[i] = new Array(8)
+  }
+
+  row[3][4] = new Piece("black");
+  row[4][3] = new Piece("black");
+  row[3][3] = new Piece("white");
+  row[4][4] = new Piece("white");
+  return row
 }
 
 /**
