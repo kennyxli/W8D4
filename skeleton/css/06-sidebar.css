@@ -3,6 +3,7 @@
     display: block;
     margin-top: -120px;
     position: relative;
+    border: 1px solid black;
 }
 
 .profile-info h1{
@@ -28,4 +29,8 @@
 .profile-nav li:first-child {
     border-top: 1px solid lightgray;
 
+}
+.profile-nav li:hover {
+    background-color: lightgray;
+    cursor:pointer;
 }
