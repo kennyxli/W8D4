@@ -1,2 +1,38 @@
 /* PHASE 2: Thumbs */
 
+.thumb > img {
+    
+    border-radius: 5px;
+    width: 55px;
+    height: 55px;
+}
+
+.profile-friends li {
+    display: inline-flex;
+    margin: 2px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.profile-friends {
+    margin-top: 20px;
+}
+
+.thumb:after {
+    cursor: pointer;
+    content: attr(title);
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 65px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.thumb:hover:before {
+    display: block
+}
